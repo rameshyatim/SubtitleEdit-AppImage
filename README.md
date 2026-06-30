@@ -1,4 +1,4 @@
- SubtitleEdit AppImage (Portable Linux Build)
+# SubtitleEdit AppImage (Portable Linux Build)
 
 This project provides a **portable AppImage packaging system** for Subtitle Edit on Linux.
 
@@ -24,6 +24,9 @@ Subtitle Edit is downloaded from the official release tarball:
 - `SubtitleEdit-Linux-x64.tar.gz`
 
 Then it is packaged into an AppImage using `appimagetool`.
+
+All configuration is redirected to:
+
 
 SubtitleEdit.AppImage.home
 
@@ -97,6 +100,4 @@ Packaging and automation by this project
 
 This packaging script is released under MIT License.
 Subtitle Edit itself follows its own upstream license.
-
-All configuration is redirected to:
 Thanks to https://github.com/SubtitleEdit for porting it to Linux. 
