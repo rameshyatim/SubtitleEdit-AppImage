@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Subtitle Edit
+Exec=SubtitleEdit
+Icon=SubtitleEdit
+Categories=AudioVideo;Video;
+Terminal=false
