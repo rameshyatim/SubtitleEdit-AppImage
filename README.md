@@ -25,5 +25,78 @@ Subtitle Edit is downloaded from the official release tarball:
 
 Then it is packaged into an AppImage using `appimagetool`.
 
+SubtitleEdit.AppImage.home
+
+
+This ensures full portability.
+
+---
+
+## ⚙️ Build instructions
+
+### Requirements
+
+- bash
+- wget or curl
+- tar
+- appimagetool (or included in repo)
+- Linux x86_64 system
+
+---
+
+### Build
+
+```bash
+chmod +x build.sh
+./build.sh
+
+This will:
+
+Download Subtitle Edit (official Linux release)
+Extract files
+Prepare AppDir structure
+Build the AppImage
+
+Output:
+
+SubtitleEdit-x86_64.AppImage
+📁 Portable mode
+
+When you run the AppImage, it will automatically create:
+
+SubtitleEdit.AppImage.home/
+├── .config
+├── .cache
+└── .local
+
+All settings are stored here instead of your system.
+
+🌐 Language note
+
+If Subtitle Edit does not save language changes from the top menu, use:
+
+Options → Language → Apply → OK
+
+This ensures the setting is saved correctly.
+
+📦 Release
+
+Prebuilt AppImages are available in the Releases section:
+
+👉 https://github.com/rameshyatim/SubtitleEdit-AppImage/releases
+
+⚠️ Notes
+This project does NOT redistribute Subtitle Edit binaries in the repository
+All binaries are downloaded from official sources during build
+This ensures compliance and keeps the repository lightweight
+🙌 Credits
+Subtitle Edit by its original developers
+AppImage tools by the AppImage community
+Packaging and automation by this project
+📜 License
+
+This packaging script is released under MIT License.
+Subtitle Edit itself follows its own upstream license.
+
 All configuration is redirected to:
 Thanks to https://github.com/SubtitleEdit for porting it to Linux. 
