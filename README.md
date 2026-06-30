@@ -26,4 +26,4 @@ Subtitle Edit is downloaded from the official release tarball:
 Then it is packaged into an AppImage using `appimagetool`.
 
 All configuration is redirected to:
-Thanks to https://github.com/SubtitleEdit for porting to Linux. 
+Thanks to https://github.com/SubtitleEdit for porting it to Linux. 
