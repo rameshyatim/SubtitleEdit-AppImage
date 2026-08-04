@@ -1,6 +1,10 @@
 <p align="center">
   <img src="images/logo.png" width="180" alt="Subtitle Edit Logo">
 </p>
+
+<p align="center">
+  <img src="images/screenshot.png" width="800" alt="SubtitleEdit Screenshot">
+</p>
 # SubtitleEdit AppImage (Portable Linux Build)
 
 This project provides a **portable AppImage packaging system** for Subtitle Edit on Linux.
