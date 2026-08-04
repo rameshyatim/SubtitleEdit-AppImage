@@ -104,3 +104,10 @@ Packaging and automation by this project
 This packaging script is released under MIT License.
 Subtitle Edit itself follows its own upstream license.
 Thanks to https://github.com/SubtitleEdit for porting it to Linux. 
+<<<<<<< HEAD
+=======
+
+### 📦 Download
+
+➡️ **[Latest Release](../../releases/latest)**
+>>>>>>> 866fff8 (Add project logo)
