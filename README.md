@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/logo.svg" width="180" alt="Subtitle Edit Logo">
+  <img src="images/logo.png" width="180" alt="Subtitle Edit Logo">
 </p>
 # SubtitleEdit AppImage (Portable Linux Build)
 
